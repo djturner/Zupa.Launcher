@@ -1,0 +1,57 @@
+{
+  "ProcessesToRun": [
+    "Zupa.Authentication",
+    "Zupa.Contacts",
+    "Zupa.Media",
+    "Zupa.Messaging",
+    "Zupa.Notifications.NotificationsService",
+    "Zupa.Orders",
+    "Zupa.Organisations",
+    "Zupa.ProductCategories",
+    "Zupa.Products",
+    "Zupa.Safe"
+  ],
+  "WorkingDirectory" : "C:/Dev/Zupa",
+  "Processes": {
+    "Zupa.Authentication": {
+      "Name": "Zupa.Authentication",
+      "ProjectDirectory": "Zupa.Authentication/src/Zupa.Authentication.AuthService"
+    },
+    "Zupa.Contacts": {
+      "Name": "Zupa.Contacts",
+      "ProjectDirectory": "Zupa.Contacts/src/Zupa.Contacts.ContactsService"
+    },
+    "Zupa.Media": {
+      "Name": "Zupa.Media",
+      "ProjectDirectory": "Zupa.Media/src/Zupa.Media.MediaService"
+    },
+    "Zupa.Messaging": {
+      "Name": "Zupa.Messaging",
+      "ProjectDirectory": "Zupa.Messaging/src/Zupa.Messaging.MessageService"
+    },
+    "Zupa.Notifications.NotificationsService": {
+      "Name": "Zupa.Notifications.NotificationsService",
+      "ProjectDirectory": "Zupa.Notifications.NotificationsService/src/Zupa.Notifications.NotificationsService"
+    },
+    "Zupa.Orders": {
+      "Name": "Zupa.Orders",
+      "ProjectDirectory": "Zupa.Orders/src/Zupa.Orders.OrdersService"
+    },
+    "Zupa.Organisations": {
+      "Name": "Zupa.Organisations",
+      "ProjectDirectory": "Zupa.Organisations/src/Zupa.Organisations.OrganisationsService"
+    },
+    "Zupa.ProductCategories": {
+      "Name": "Zupa.ProductCategories",
+      "ProjectDirectory": "Zupa.ProductCategories/src/Zupa.ProductCategories.CategoriesService"
+    },
+    "Zupa.Products": {
+      "Name": "Zupa.Products",
+      "ProjectDirectory": "Zupa.Products/src/Zupa.Products.ProductsService"
+    },
+    "Zupa.Safe": {
+      "Name": "Zupa.Safe",
+      "ProjectDirectory": "Zupa.Safe/src/Zupa.Safe.DataService"
+    }
+  }
+}
