@@ -1,5 +1,6 @@
 {
   "ProcessesToRun": [
+    "Zupa.Agreements",
     "Zupa.Authentication",
     "Zupa.Contacts",
     "Zupa.Media",
@@ -13,6 +14,10 @@
   ],
   "WorkingDirectory" : "C:/Dev/Zupa",
   "Processes": {
+    "Zupa.Agreements": {
+      "Name": "Zupa.Agreements",
+      "ProjectDirectory": "Zupa.Agreements/src/Zupa.Agreements.AgreementsService"
+    },
     "Zupa.Authentication": {
       "Name": "Zupa.Authentication",
       "ProjectDirectory": "Zupa.Authentication/src/Zupa.Authentication.AuthService"
