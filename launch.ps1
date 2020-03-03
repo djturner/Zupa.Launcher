@@ -20,5 +20,7 @@ Set-Location -Path $startDir
 
 [void](Read-Host 'Press Enter to teardown...')
 
-Stop-Process -InputObject $ProcessesList
-Wait-Process -InputObject $ProcessesList
+$LivingProcesses = $ProcessesList | Where-Object {-not $_.HasExited}
+
+Stop-Process -InputObject $LivingProcesses
+Wait-Process -InputObject $LivingProcesses
