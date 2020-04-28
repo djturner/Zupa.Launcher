@@ -10,7 +10,8 @@
     "Zupa.Organisations",
     "Zupa.ProductCategories",
     "Zupa.Products",
-    "Zupa.Safe"
+    "Zupa.Safe",
+    "Zupa.Stock"
   ],
   "WorkingDirectory" : "C:/Dev/Zupa",
   "Processes": {
@@ -57,6 +58,10 @@
     "Zupa.Safe": {
       "Name": "Zupa.Safe",
       "ProjectDirectory": "Zupa.Safe/src/Zupa.Safe.DataService"
+    },
+    "Zupa.Stock": {
+      "Name": "Zupa.Stock",
+      "ProjectDirectory": "Zupa.Stock/src/Zupa.Stock.StockService"
     }
   }
 }
