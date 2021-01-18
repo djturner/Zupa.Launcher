@@ -18,7 +18,7 @@
     "Zupa.Safe",
     "Zupa.Stock"
   ],
-  "WorkingDirectory" : "C:/Dev/Zupa",
+  "WorkingDirectory" : "C:/Dev",
   "Processes": {
     "Zupa.Agreements": {
       "Name": "Zupa.Agreements",
