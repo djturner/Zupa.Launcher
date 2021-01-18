@@ -1,15 +1,20 @@
 {
   "ProcessesToRun": [
     "Zupa.Agreements",
+    "Zupa.AgreementsRead",
+    "Zupa.AgreementsWrite",
     "Zupa.Authentication",
     "Zupa.Contacts",
+    // "Zupa.EDI",
+    "Zupa.Finance.Config",
     "Zupa.Media",
     "Zupa.Messaging",
     "Zupa.Notifications.NotificationsService",
     "Zupa.Orders",
     "Zupa.Organisations",
+    "Zupa.ProductCatalog",
     "Zupa.ProductCategories",
-    "Zupa.Products",
+    "Zupa.ProductStore",
     "Zupa.Safe",
     "Zupa.Stock"
   ],
@@ -19,6 +24,14 @@
       "Name": "Zupa.Agreements",
       "ProjectDirectory": "Zupa.Agreements/src/Zupa.Agreements.AgreementsService"
     },
+    "Zupa.AgreementsRead": {
+      "Name": "Zupa.AgreementsRead",
+      "ProjectDirectory": "Zupa.AgreementsWrite/src/Zupa.AgreementsRead.Service"
+    },
+    "Zupa.AgreementsWrite": {
+      "Name": "Zupa.AgreementsWrite",
+      "ProjectDirectory": "Zupa.AgreementsWrite/src/Zupa.AgreementsWrite.Service"
+    },
     "Zupa.Authentication": {
       "Name": "Zupa.Authentication",
       "ProjectDirectory": "Zupa.Authentication/src/Zupa.Authentication.AuthService"
@@ -26,6 +39,14 @@
     "Zupa.Contacts": {
       "Name": "Zupa.Contacts",
       "ProjectDirectory": "Zupa.Contacts/src/Zupa.Contacts.ContactsService"
+    },
+    "Zupa.EDI": {
+      "Name": "Zupa.EDI",
+      "ProjectDirectory": "Zupa.EDI/src/Zupa.EDI.EDIService"
+    },
+    "Zupa.Finance.Config": {
+      "Name": "Zupa.Finance.Config",
+      "ProjectDirectory": "Zupa.Finance.Config/src/Zupa.Finance.Config.Service"
     },
     "Zupa.Media": {
       "Name": "Zupa.Media",
@@ -47,6 +68,10 @@
       "Name": "Zupa.Organisations",
       "ProjectDirectory": "Zupa.Organisations/src/Zupa.Organisations.OrganisationsService"
     },
+    "Zupa.ProductCatalog": {
+      "Name": "Zupa.ProductCatalog",
+      "ProjectDirectory": "Zupa.ProductCatalog/src/Zupa.ProductCatalog.CatalogService"
+    },
     "Zupa.ProductCategories": {
       "Name": "Zupa.ProductCategories",
       "ProjectDirectory": "Zupa.ProductCategories/src/Zupa.ProductCategories.CategoriesService"
@@ -54,6 +79,10 @@
     "Zupa.Products": {
       "Name": "Zupa.Products",
       "ProjectDirectory": "Zupa.Products/src/Zupa.Products.ProductsService"
+    },
+    "Zupa.ProductStore": {
+      "Name": "Zupa.ProductStore",
+      "ProjectDirectory": "Zupa.ProductStore/src/Zupa.ProductStore.StoreService"
     },
     "Zupa.Safe": {
       "Name": "Zupa.Safe",
